@@ -20,7 +20,11 @@ This project implements an **end-to-end evaluation pipeline** for Large Language
 Run and compare multiple local LLMs (via Ollama):
 
 ```bash
-python run_pipeline.py --models llama3.1:8b gemma:7b tinyllama
+python run_pipeline.py --models llama3.1:8b gemma:7b tinyllama --mode balanced
+```
+OR
+```bash
+python run_pipeline.py --models llama3.1:8b gemma:7b tinyllama --mode fast
 ```
 (Can test with your own model of choice)
 
