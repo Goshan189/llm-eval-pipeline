@@ -1,0 +1,21 @@
+{
+  "model": "tinyllama",
+  "metrics": {
+    "avg_relevance": 0.355,
+    "hallucination_rate": 83.33,
+    "avg_faithfulness": 0.431,
+    "error_distribution": {
+      "hallucination": 12,
+      "partial_correct": 12,
+      "over_fallback": 4,
+      "system_error": 1,
+      "correct": 1
+    }
+  },
+  "decision": {
+    "status": "FAIL",
+    "score": 18.29,
+    "mode": "fast",
+    "latency": 5
+  }
+}

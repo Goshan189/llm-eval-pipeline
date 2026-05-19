@@ -1,0 +1,6 @@
+/.env
+/evaluation/__pycache__/
+test_models.py
+/runner/__pycache__/
+/ci/__pycache__/
+/cd/__pycache__/

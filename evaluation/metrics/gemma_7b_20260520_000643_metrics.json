@@ -1,0 +1,20 @@
+{
+  "model": "gemma:7b",
+  "metrics": {
+    "avg_relevance": 0.374,
+    "hallucination_rate": 73.33,
+    "avg_faithfulness": 0.672,
+    "error_distribution": {
+      "system_error": 6,
+      "partial_correct": 11,
+      "hallucination": 12,
+      "over_fallback": 1
+    }
+  },
+  "decision": {
+    "status": "FAIL",
+    "score": 23.27,
+    "mode": "fast",
+    "latency": 5
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": "llama3.1:8b",
+  "metrics": {
+    "avg_relevance": 0.467,
+    "hallucination_rate": 63.33,
+    "avg_faithfulness": 0.672,
+    "error_distribution": {
+      "partial_correct": 19,
+      "over_fallback": 2,
+      "hallucination": 7,
+      "system_error": 1,
+      "correct": 1
+    }
+  },
+  "decision": {
+    "status": "FAIL",
+    "score": 28.06,
+    "mode": "fast",
+    "latency": 5
+  }
+}

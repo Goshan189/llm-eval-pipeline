@@ -1,0 +1,398 @@
+{
+  "run_id": "gemma_7b_20260520_000643",
+  "model": "gemma:7b",
+  "timestamp": "2026-05-20 00:12:17.546967",
+  "total_cases": 30,
+  "results": [
+    {
+      "id": 1,
+      "question": "What is Retrieval-Augmented Generation (RAG)?",
+      "context": null,
+      "expected_answer": "RAG retrieves external data and uses it to generate grounded responses.",
+      "response": "ERROR: llama runner process has terminated: %!w(<nil>)",
+      "latency": 26.564,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "concept"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Why is RAG used in LLM systems?",
+      "context": null,
+      "expected_answer": "To improve factual accuracy by grounding responses in retrieved data.",
+      "response": "ERROR: llama runner process has terminated: %!w(<nil>)",
+      "latency": 39.245,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Does RAG eliminate hallucinations completely?",
+      "context": null,
+      "expected_answer": "No, it reduces hallucinations but does not eliminate them.",
+      "response": "ERROR: llama runner process has terminated: %!w(<nil>)",
+      "latency": 18.681,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "adversarial"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the role of embeddings in RAG?",
+      "context": null,
+      "expected_answer": "Embeddings convert text into vectors for semantic similarity search.",
+      "response": "ERROR: llama runner process has terminated: %!w(<nil>)",
+      "latency": 29.721,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "concept"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Why does RAG reduce token usage?",
+      "context": null,
+      "expected_answer": "Because it retrieves only relevant chunks instead of sending full context.",
+      "response": "ERROR: llama runner process has terminated: %!w(<nil>)",
+      "latency": 27.403,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What happens if retrieval fails in RAG?",
+      "context": null,
+      "expected_answer": "The model may generate incorrect or incomplete answers.",
+      "response": "Retrieval failure in RAG results in the rejection of the query, preventing the retrieval of irrelevant or incomplete results.",
+      "latency": 29.237,
+      "model": "gemma:7b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is cosine similarity used for in RAG?",
+      "context": null,
+      "expected_answer": "It measures similarity between query and document embeddings.",
+      "response": "Cosine similarity measures the similarity between two text documents in RAG by calculating the cosine of the angle between their word vectors.</start_of_turn>",
+      "latency": 8.873,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "concept"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Is RAG useful for real-time knowledge updates?",
+      "context": null,
+      "expected_answer": "Yes, it allows retrieval of up-to-date external information.",
+      "response": "RAG is not suitable for real-time knowledge updates due to its periodic refresh rate.",
+      "latency": 5.907,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is a vector database?",
+      "context": null,
+      "expected_answer": "A database optimized for storing and searching vector embeddings.",
+      "response": "A vector database stores data as geometric shapes (vectors), such as points, lines, or polygons.",
+      "latency": 6.179,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "concept"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Can RAG work without embeddings?",
+      "context": null,
+      "expected_answer": "No, embeddings are required for semantic retrieval.",
+      "response": "RAG requires embeddings to perform its tasks effectively. Embeddings provide contextual information that is essential for accurate evaluation",
+      "latency": 6.526,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "adversarial"
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What does the document say about hallucination?",
+      "context": "Hallucination occurs when the model generates information not present in the source.",
+      "expected_answer": "Hallucination is when the model generates information not in the source.",
+      "response": "The document states that hallucination is the generation of information not present in the source.",
+      "latency": 5.934,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "context"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the main benefit of retrieval in RAG?",
+      "context": null,
+      "expected_answer": "It provides relevant context for more accurate answers.",
+      "response": "Retrieval in RAG enhances accessibility to relevant information by retrieving previously evaluated records from the archive.",
+      "latency": 5.842,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What was decided?",
+      "context": "The team agreed to delay the release by 2 weeks.",
+      "expected_answer": "The release was delayed by 2 weeks.",
+      "response": "The team decided to delay the release by 2 weeks.",
+      "latency": 4.676,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "ambiguous"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Why is chunking important in RAG?",
+      "context": null,
+      "expected_answer": "It splits documents into manageable pieces for effective retrieval.",
+      "response": "Chunking helps to organize and simplify complex information in RAG by breaking it down into smaller, manageable units.",
+      "latency": 6.384,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What happens if chunks are too large?",
+      "context": null,
+      "expected_answer": "Relevant information may be diluted, reducing retrieval accuracy.",
+      "response": "Large chunks can impede learning and retention, making it difficult for the brain to process and retain information effectively.",
+      "latency": 6.324,
+      "model": "gemma:7b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of reranking in RAG?",
+      "context": null,
+      "expected_answer": "To reorder retrieved results based on relevance.",
+      "response": "Reranking in RAG helps to ensure that the most relevant results are displayed at the top of the search results list.",
+      "latency": 6.704,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "concept"
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Who won the FIFA World Cup in 2022?",
+      "context": "This document discusses machine learning systems.",
+      "expected_answer": "The context does not contain this information.",
+      "response": "The provided context does not contain information regarding the winner of the FIFA World Cup in 2022.",
+      "latency": 6.218,
+      "model": "gemma:7b",
+      "tags": [
+        "hard",
+        "negative"
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is a common failure mode of RAG systems?",
+      "context": null,
+      "expected_answer": "Retrieving irrelevant or incomplete context.",
+      "response": "Common failure modes of RAG systems include hardware and software failures, such as component failures, communication issues, and algorithm errors.",
+      "latency": 6.942,
+      "model": "gemma:7b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Does increasing top-k always improve results?",
+      "context": null,
+      "expected_answer": "No, it can introduce noise and reduce answer quality.",
+      "response": "No, increasing top-k can sometimes degrade performance depending on the specific model and dataset.",
+      "latency": 5.736,
+      "model": "gemma:7b",
+      "tags": [
+        "hard",
+        "adversarial"
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is grounding in RAG?",
+      "context": null,
+      "expected_answer": "Ensuring responses are based on retrieved context.",
+      "response": "Grounding in RAG refers to techniques used to connect with reality and reduce emotional overwhelm during intense experiences.",
+      "latency": 6.093,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "concept"
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Why are LLMs prone to hallucination?",
+      "context": null,
+      "expected_answer": "Because they generate text based on patterns rather than verified facts.",
+      "response": "LLMs hallucinate due to their reliance on statistical patterns in the training data that do not generalize well to unseen inputs.",
+      "latency": 6.742,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 22,
+      "question": "What is the role of context in RAG?",
+      "context": null,
+      "expected_answer": "It provides relevant information for answer generation.",
+      "response": "Context provides essential information that shapes the interpretation and evaluation of results in the Research Assessment Grid (RAG) process. It clarifies the specific context of the research being assessed, allowing for accurate and relevant judgments",
+      "latency": 9.338,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "concept"
+      ]
+    },
+    {
+      "id": 23,
+      "question": "What does the document state about retrieval?",
+      "context": "Retrieval fetches relevant data from a knowledge base to assist in answering queries.",
+      "expected_answer": "Retrieval fetches relevant data for answering queries.",
+      "response": "The provided document states that retrieval involves fetching relevant data from a knowledge base.",
+      "latency": 5.11,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "context"
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Is RAG more expensive than using full context?",
+      "context": null,
+      "expected_answer": "No, it is usually cheaper because it reduces token usage.",
+      "response": "The provided text does not contain information regarding the cost comparison between RAG and full context.",
+      "latency": 5.74,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "adversarial"
+      ]
+    },
+    {
+      "id": 25,
+      "question": "What is semantic search?",
+      "context": null,
+      "expected_answer": "Search based on meaning rather than exact keywords.",
+      "response": "Semantic search focuses on understanding the meaning of words and their relationships to retrieve relevant information.",
+      "latency": 5.491,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "concept"
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What happens if embeddings are poor quality?",
+      "context": null,
+      "expected_answer": "Retrieval accuracy decreases, leading to poor answers.",
+      "response": "Embeddings of poor quality can lead to inaccurate or biased representations, negatively impacting downstream tasks such as classification or retrieval.",
+      "latency": 6.576,
+      "model": "gemma:7b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 27,
+      "question": "What is the difference between RAG and fine-tuning?",
+      "context": null,
+      "expected_answer": "RAG retrieves external data, while fine-tuning updates model weights.",
+      "response": "RAG involves generating reusable components from pre-trained models, while fine-tuning modifies the parameters of a pre-trained model for a specific task.",
+      "latency": 7.62,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 28,
+      "question": "What is latency in LLM systems?",
+      "context": null,
+      "expected_answer": "The time taken to generate a response.",
+      "response": "Latency in LLM systems refers to the delay between the input and the corresponding output due to computational processing time.",
+      "latency": 6.608,
+      "model": "gemma:7b",
+      "tags": [
+        "easy",
+        "concept"
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Why might an LLM ignore provided context?",
+      "context": null,
+      "expected_answer": "Because of prompt issues or strong prior patterns in the model.",
+      "response": "LLMs may ignore provided context if it is irrelevant or if the model's training data did not include similar contexts.",
+      "latency": 6.844,
+      "model": "gemma:7b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ]
+    },
+    {
+      "id": 30,
+      "question": "What is the main limitation of RAG?",
+      "context": null,
+      "expected_answer": "It depends heavily on retrieval quality.",
+      "response": "RAG does not account for changes in the underlying relationships between items over time.",
+      "latency": 5.776,
+      "model": "gemma:7b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ]
+    }
+  ]
+}

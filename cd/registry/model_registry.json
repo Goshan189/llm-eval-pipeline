@@ -1,0 +1,34 @@
+[
+  {
+    "model": "llama3.1:8b",
+    "score": 28.06,
+    "status": "FAIL",
+    "mode": "fast",
+    "latency": 5,
+    "timestamp": "2026-05-20 00:06:43.270405"
+  },
+  {
+    "model": "gemma:7b",
+    "score": 23.27,
+    "status": "FAIL",
+    "mode": "fast",
+    "latency": 5,
+    "timestamp": "2026-05-20 00:12:18.709818"
+  },
+  {
+    "model": "tinyllama",
+    "score": 18.29,
+    "status": "FAIL",
+    "mode": "fast",
+    "latency": 5,
+    "timestamp": "2026-05-20 00:15:27.681397"
+  },
+  {
+    "model": "deepseek-coder",
+    "score": 17.55,
+    "status": "FAIL",
+    "mode": "fast",
+    "latency": 5,
+    "timestamp": "2026-05-20 00:19:24.053113"
+  }
+]

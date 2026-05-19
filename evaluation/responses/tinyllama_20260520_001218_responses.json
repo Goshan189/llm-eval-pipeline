@@ -1,0 +1,545 @@
+{
+  "model": "tinyllama",
+  "evaluated_results": [
+    {
+      "id": 1,
+      "question": "What is Retrieval-Augmented Generation (RAG)?",
+      "context": null,
+      "expected_answer": "RAG retrieves external data and uses it to generate grounded responses.",
+      "response": "Rules:\n1. Answer in MAXIMUM 2 sentences",
+      "latency": 14.439,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": -0.009999999776482582,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 2,
+      "question": "Why is RAG used in LLM systems?",
+      "context": null,
+      "expected_answer": "To improve factual accuracy by grounding responses in retrieved data.",
+      "response": "Question:\nWhat is the purpose of RAG (Recurrent Attention Gate) in LLM (Language Modeling) systems?\n\nAnswer:\nRAG (Recurrent Attention Gate) is a mechanism used in Language Modeling (LLM) systems to control the attention of the model on specific words or phrases. It helps in improving the performance of the system by allowing the model to focus on relevant information and avoiding irrelevant ones",
+      "latency": 6.302,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "reasoning"
+      ],
+      "relevance_score": 0.15199999511241913,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 3,
+      "question": "Does RAG eliminate hallucinations completely?",
+      "context": null,
+      "expected_answer": "No, it reduces hallucinations but does not eliminate them.",
+      "response": "Sure! Here's an example answer to the question you provided:\n\n\"Yes, RAG does eliminate hallucinations completely.\"\n\nIn this context, \"hallucination\" refers to a perception that is not based on reality or exists only in the mind",
+      "latency": 4.827,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "adversarial"
+      ],
+      "relevance_score": 0.6610000133514404,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 4,
+      "question": "What is the role of embeddings in RAG?",
+      "context": null,
+      "expected_answer": "Embeddings convert text into vectors for semantic similarity search.",
+      "response": "Rules:\n1. Answer in MAXIMUM 2 sentences",
+      "latency": 6.505,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "concept"
+      ],
+      "relevance_score": 0.13199999928474426,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 5,
+      "question": "Why does RAG reduce token usage?",
+      "context": null,
+      "expected_answer": "Because it retrieves only relevant chunks instead of sending full context.",
+      "response": "Question:\nWhat are the benefits of RAG (Reduced AI Gaming) for gamers, and how does it work?\n\nAnswer:\nRAG is a technology that reduces the amount of data used by AI systems in gaming. This helps to improve game performance, reduce latency, and enhance overall user experience",
+      "latency": 7.256,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.15299999713897705,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 6,
+      "question": "What happens if retrieval fails in RAG?",
+      "context": null,
+      "expected_answer": "The model may generate incorrect or incomplete answers.",
+      "response": "Question:\nHow do I handle retrieval failures in RAG, as mentioned in the given material?\n\nAnswer:\nIn RAG (Repeatable and Accurate Generative Grammars), retrieval fails when a specified context is not provided. In this case, the context does not contain any information that can be used to generate a valid output for the given input",
+      "latency": 6.261,
+      "model": "tinyllama",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.210999995470047,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "over_fallback",
+      "is_verbose": false
+    },
+    {
+      "id": 7,
+      "question": "What is cosine similarity used for in RAG?",
+      "context": null,
+      "expected_answer": "It measures similarity between query and document embeddings.",
+      "response": "Cosine similarity is a metric used in RAG (Recursive Attention Graph) to measure the similarity between two nodes based on their mutual influence in the graph. In RAG, cosine similarity is calculated by taking the dot product of the node features and the corresponding node features of the other node in question",
+      "latency": 5.356,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.41999998688697815,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 8,
+      "question": "Is RAG useful for real-time knowledge updates?",
+      "context": null,
+      "expected_answer": "Yes, it allows retrieval of up-to-date external information.",
+      "response": "Sure! Here's an example answer:\n\nQuestion:\nCan you summarize the benefits of RAG (Real-Time AI Generator) in terms of real-time knowledge updates?\n\nAnswer:\nCertainly! RAG is a powerful AI assistant that can provide real-time updates on various topics, including news, events, and trends. It uses machine learning algorithms to analyze vast amounts of data and provide insights and recommendations based on the latest information available",
+      "latency": 6.427,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.4779999852180481,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 9,
+      "question": "What is a vector database?",
+      "context": null,
+      "expected_answer": "A database optimized for storing and searching vector embeddings.",
+      "response": "A vector database is a type of data storage that uses vectors to store and retrieve data. It is commonly used in fields such as geospatial analysis, search engines, and social media platforms",
+      "latency": 4.596,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.6610000133514404,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 10,
+      "question": "Can RAG work without embeddings?",
+      "context": null,
+      "expected_answer": "No, embeddings are required for semantic retrieval.",
+      "response": "Surely! RAG (Rational Approach to Grammar) is an AI-based grammar checker that does not require any embedded rules or context. It can analyze and correct grammatical errors, spelling mistakes, and other types of mistakes in text without the need for additional information",
+      "latency": 5.147,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "adversarial"
+      ],
+      "relevance_score": 0.18700000643730164,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "system_error",
+      "is_verbose": false
+    },
+    {
+      "id": 11,
+      "question": "What does the document say about hallucination?",
+      "context": "Hallucination occurs when the model generates information not present in the source.",
+      "expected_answer": "Hallucination is when the model generates information not in the source.",
+      "response": "Rules:\n1. Answer in MAXIMUM 2 sentences",
+      "latency": 4.492,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "context"
+      ],
+      "relevance_score": 0.07500000298023224,
+      "faithfulness_score": 0.04899999871850014,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 12,
+      "question": "What is the main benefit of retrieval in RAG?",
+      "context": null,
+      "expected_answer": "It provides relevant context for more accurate answers.",
+      "response": "Question:\nWhat is the main benefit of retrieval in RAG, according to the given material?\n\nAnswer: According to the given material, the main benefit of retrieval in RAG is that it allows for a more efficient and effective use of resources. The context provided does not contain this information",
+      "latency": 4.393,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "reasoning"
+      ],
+      "relevance_score": 0.30399999022483826,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 13,
+      "question": "What was decided?",
+      "context": "The team agreed to delay the release by 2 weeks.",
+      "expected_answer": "The release was delayed by 2 weeks.",
+      "response": "Sure, here's a possible answer:\n\nQuestion:\nWhat decision was made regarding the release date?\n\nAnswer:\nThe team agreed to delay the release by 2 weeks.",
+      "latency": 3.669,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "ambiguous"
+      ],
+      "relevance_score": 0.7789999842643738,
+      "faithfulness_score": 0.8029999732971191,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 14,
+      "question": "Why is chunking important in RAG?",
+      "context": null,
+      "expected_answer": "It splits documents into manageable pieces for effective retrieval.",
+      "response": "In RAG (Rapid Application Generator), chunking is an essential feature that helps to break down large datasets into smaller, manageable chunks for easier processing and analysis. Chunking allows users to focus on specific aspects of the data while avoiding the need to process entire datasets at once",
+      "latency": 5.867,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.4699999988079071,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 15,
+      "question": "What happens if chunks are too large?",
+      "context": null,
+      "expected_answer": "Relevant information may be diluted, reducing retrieval accuracy.",
+      "response": "Question:\nHow can you ensure that the data is processed correctly when working with large chunks of text?\n\nAnswer:\nIf the chunk size is too large, it may cause issues with processing and analysis. Here's how to handle this situation:\n\n1",
+      "latency": 12.309,
+      "model": "tinyllama",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.2840000092983246,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of reranking in RAG?",
+      "context": null,
+      "expected_answer": "To reorder retrieved results based on relevance.",
+      "response": "Ranking in RAG is a process used to determine the order of poems submitted for publication in the magazine. The purpose of re-ranking is to ensure that each poem receives equal consideration and exposure, regardless of its ranking during previous rounds",
+      "latency": 5.167,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "concept"
+      ],
+      "relevance_score": 0.4480000138282776,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 17,
+      "question": "Who won the FIFA World Cup in 2022?",
+      "context": "This document discusses machine learning systems.",
+      "expected_answer": "The context does not contain this information.",
+      "response": "Sure, here's an example answer for the given question:\n\nQuestion: Who won the FIFA World Cup in 2022?\n\nAnswer: The context does not contain this information.",
+      "latency": 3.931,
+      "model": "tinyllama",
+      "tags": [
+        "hard",
+        "negative"
+      ],
+      "relevance_score": 0.42899999022483826,
+      "faithfulness_score": 0.11400000005960464,
+      "hallucinated": true,
+      "error_type": "correct",
+      "is_verbose": false
+    },
+    {
+      "id": 18,
+      "question": "What is a common failure mode of RAG systems?",
+      "context": null,
+      "expected_answer": "Retrieving irrelevant or incomplete context.",
+      "response": "Question:\nWhat is the hallucination rule in evaluating AI assistants?\n\nAnswer:\nThe hallucination rule states that if context is provided, use only that context. If context is required but missing, reply exactly: \"The context does not contain this information",
+      "latency": 4.275,
+      "model": "tinyllama",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.48399999737739563,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "over_fallback",
+      "is_verbose": false
+    },
+    {
+      "id": 19,
+      "question": "Does increasing top-k always improve results?",
+      "context": null,
+      "expected_answer": "No, it can introduce noise and reduce answer quality.",
+      "response": "Sure! Here's an example answer for the given question:\n\nQuestion: Does increasing top-k always improve results?\n\nAnswer: No, increasing top-k does not necessarily improve results. In fact, in some cases, it can actually have a negative impact on performance",
+      "latency": 6.767,
+      "model": "tinyllama",
+      "tags": [
+        "hard",
+        "adversarial"
+      ],
+      "relevance_score": 0.3449999988079071,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 20,
+      "question": "What is grounding in RAG?",
+      "context": null,
+      "expected_answer": "Ensuring responses are based on retrieved context.",
+      "response": "Rules:\n1. Answer in MAXIMUM 2 sentences",
+      "latency": 4.768,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "concept"
+      ],
+      "relevance_score": 0.22599999606609344,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 21,
+      "question": "Why are LLMs prone to hallucination?",
+      "context": null,
+      "expected_answer": "Because they generate text based on patterns rather than verified facts.",
+      "response": "Question:\nLLMs (Legal Literature Minimally Relevant) are prone to hallucination due to their limited exposure to legal literature. This is because LLMs do not have the ability to read or access legal texts, and they rely solely on their memory for information",
+      "latency": 6.957,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.25099998712539673,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 22,
+      "question": "What is the role of context in RAG?",
+      "context": null,
+      "expected_answer": "It provides relevant information for answer generation.",
+      "response": "Rules:\n1. Answer in MAXIMUM 2 sentences",
+      "latency": 7.8,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.27399998903274536,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 23,
+      "question": "What does the document state about retrieval?",
+      "context": "Retrieval fetches relevant data from a knowledge base to assist in answering queries.",
+      "expected_answer": "Retrieval fetches relevant data for answering queries.",
+      "response": "Sure, here's an example answer:\n\nQuestion:\nHow does retrieval assist in answering queries?\n\nAnswer: Retrieval is a crucial component of knowledge-based systems that helps to fetch relevant data from a knowledge base to assist in answering queries.",
+      "latency": 4.528,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "context"
+      ],
+      "relevance_score": 0.7110000252723694,
+      "faithfulness_score": 0.7570000290870667,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 24,
+      "question": "Is RAG more expensive than using full context?",
+      "context": null,
+      "expected_answer": "No, it is usually cheaper because it reduces token usage.",
+      "response": "Sure! Here's a possible answer to the question:\n\nQuestion:\nIs RAG (Real-time AI Guru) more expensive than using full context?\n\nAnswer:\nYes, RAG is more expensive than using full context. The context provided in the given context does not contain this information",
+      "latency": 5.04,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "adversarial"
+      ],
+      "relevance_score": 0.35499998927116394,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "over_fallback",
+      "is_verbose": false
+    },
+    {
+      "id": 25,
+      "question": "What is semantic search?",
+      "context": null,
+      "expected_answer": "Search based on meaning rather than exact keywords.",
+      "response": "Semantic search is a type of artificial intelligence (AI) technology that uses natural language processing (NLP) to understand and retrieve information from textual data, such as web pages or documents. It analyzes the context and meaning behind words and phrases in order to provide relevant and accurate results",
+      "latency": 4.909,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.6169999837875366,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 26,
+      "question": "What happens if embeddings are poor quality?",
+      "context": null,
+      "expected_answer": "Retrieval accuracy decreases, leading to poor answers.",
+      "response": "Question:\nWhat happens if the embeddings provided for a given text are of poor quality?\n\nAnswer:\nIf the embeddings provided for a given text are of poor quality, then the context does not contain this information. The context is the original text and any relevant context that can be inferred from it",
+      "latency": 5.177,
+      "model": "tinyllama",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.28700000047683716,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "over_fallback",
+      "is_verbose": false
+    },
+    {
+      "id": 27,
+      "question": "What is the difference between RAG and fine-tuning?",
+      "context": null,
+      "expected_answer": "RAG retrieves external data, while fine-tuning updates model weights.",
+      "response": "Question:\nWhat is the difference between RAG and fine-tuining?\n\nAnswer:\nRAG (Rapidly Accelerating Gradient) and fine-tuining are two different types of machine learning algorithms that differ in their approach to solving problems. RAG is a supervised learning algorithm that uses a gradient descent method to optimize the weights of a neural network, while fine-tuining is an unsupervised learning algorithm that learns from unlabeled data without any predefined labels or ground truth",
+      "latency": 6.744,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.4339999854564667,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 28,
+      "question": "What is latency in LLM systems?",
+      "context": null,
+      "expected_answer": "The time taken to generate a response.",
+      "response": "Question:\nWhat is the difference between latency and delay in LLM systems?\n\nAnswer: Latency refers to the time it takes for a message or request to be transmitted from one device to another, while delay is the amount of time that passes before the message or request is received. In LLM systems, latency refers to the time it takes for a message or request to be processed and returned to the sender, while delay refers to the amount of time that passes between the transmission of the message or request and its receipt by the intended recipient",
+      "latency": 6.166,
+      "model": "tinyllama",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.3319999873638153,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 29,
+      "question": "Why might an LLM ignore provided context?",
+      "context": null,
+      "expected_answer": "Because of prompt issues or strong prior patterns in the model.",
+      "response": "Question:\nWhy might an LLM ignore provided context?\n\nAnswer:\nLLMs are designed to analyze large amounts of textual data, which can include context that is not explicitly mentioned in the given context. This can lead to a lack of context-awareness and may result in incorrect or incomplete responses",
+      "latency": 5.311,
+      "model": "tinyllama",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.3160000145435333,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 30,
+      "question": "What is the main limitation of RAG?",
+      "context": null,
+      "expected_answer": "It depends heavily on retrieval quality.",
+      "response": "Question:\nWhat is the main limitation of RAG, according to the given material?\n\nAnswer: The main limitation of RAG is that it does not contain context.",
+      "latency": 3.381,
+      "model": "tinyllama",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.1809999942779541,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    }
+  ]
+}

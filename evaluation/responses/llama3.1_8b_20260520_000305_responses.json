@@ -1,0 +1,545 @@
+{
+  "model": "llama3.1:8b",
+  "evaluated_results": [
+    {
+      "id": 1,
+      "question": "What is Retrieval-Augmented Generation (RAG)?",
+      "context": null,
+      "expected_answer": "RAG retrieves external data and uses it to generate grounded responses.",
+      "response": "Retrieval-Augmented Generation (RAG) is a neural architecture that combines the strengths of retrieval-based models with those of generative models to generate text. It retrieves relevant passages from a large corpus and uses them as input to a generator model, which produces the final output",
+      "latency": 14.969,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.4779999852180481,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 2,
+      "question": "Why is RAG used in LLM systems?",
+      "context": null,
+      "expected_answer": "To improve factual accuracy by grounding responses in retrieved data.",
+      "response": "RAG (Retrieval-Augmented Generation) is used in LLM (Large Language Model) systems to leverage external knowledge sources, such as databases or text repositories, to improve the accuracy and relevance of generated text. This is achieved by retrieving relevant information from these sources and using it to augment the model's generation capabilities",
+      "latency": 8.13,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "reasoning"
+      ],
+      "relevance_score": 0.3409999907016754,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 3,
+      "question": "Does RAG eliminate hallucinations completely?",
+      "context": null,
+      "expected_answer": "No, it reduces hallucinations but does not eliminate them.",
+      "response": "The context does not contain this information.",
+      "latency": 3.012,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "adversarial"
+      ],
+      "relevance_score": 0.15800000727176666,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "over_fallback",
+      "is_verbose": false
+    },
+    {
+      "id": 4,
+      "question": "What is the role of embeddings in RAG?",
+      "context": null,
+      "expected_answer": "Embeddings convert text into vectors for semantic similarity search.",
+      "response": "In Reformer-based Architecture for Generation (RAG), embeddings play a crucial role in representing input sequences as dense vectors in a high-dimensional space, enabling the model to capture semantic relationships between tokens. These embeddings are typically learned during training and serve as inputs to the subsequent transformer layers",
+      "latency": 7.214,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "concept"
+      ],
+      "relevance_score": 0.46000000834465027,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 5,
+      "question": "Why does RAG reduce token usage?",
+      "context": null,
+      "expected_answer": "Because it retrieves only relevant chunks instead of sending full context.",
+      "response": "RAG (ReAdGe) reduces token usage because it uses a retriever to retrieve relevant passages from the source dataset instead of generating new text, thus avoiding redundant tokens. This approach is particularly effective for tasks like question answering and summarization where context is crucial",
+      "latency": 6.637,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.4490000009536743,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 6,
+      "question": "What happens if retrieval fails in RAG?",
+      "context": null,
+      "expected_answer": "The model may generate incorrect or incomplete answers.",
+      "response": "If retrieval fails in RAG (Reinforced Generator), the model will typically return a default or null response, or it may fall back to a pre-defined fallback strategy. The exact behavior depends on the specific implementation of the RAG model and its configuration",
+      "latency": 6.628,
+      "model": "llama3.1:8b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.3050000071525574,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 7,
+      "question": "What is cosine similarity used for in RAG?",
+      "context": null,
+      "expected_answer": "It measures similarity between query and document embeddings.",
+      "response": "Cosine similarity in RAG (Retrieval-Augmented Generation) models is used to measure the similarity between the input query and the retrieved document, helping the model to focus on relevant information. It's a key component in the retrieval process, enabling the model to select the most relevant documents for augmentation",
+      "latency": 7.267,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.6389999985694885,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 8,
+      "question": "Is RAG useful for real-time knowledge updates?",
+      "context": null,
+      "expected_answer": "Yes, it allows retrieval of up-to-date external information.",
+      "response": "RAG (ReAdGe) is a retrieval-augmented generation model that can incorporate new information into its responses, making it potentially useful for real-time knowledge updates. However, its effectiveness in this regard would depend on the quality and relevance of the updated data",
+      "latency": 6.644,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.45399999618530273,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 9,
+      "question": "What is a vector database?",
+      "context": null,
+      "expected_answer": "A database optimized for storing and searching vector embeddings.",
+      "response": "A vector database is a type of database that stores and indexes high-dimensional vectors, typically used for similarity search and nearest neighbor queries in applications such as natural language processing and computer vision. It allows for efficient retrieval of data based on semantic similarities between vectors",
+      "latency": 6.393,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.7630000114440918,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 10,
+      "question": "Can RAG work without embeddings?",
+      "context": null,
+      "expected_answer": "No, embeddings are required for semantic retrieval.",
+      "response": "The context does not contain this information.",
+      "latency": 2.988,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "adversarial"
+      ],
+      "relevance_score": 0.14900000393390656,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "over_fallback",
+      "is_verbose": false
+    },
+    {
+      "id": 11,
+      "question": "What does the document say about hallucination?",
+      "context": "Hallucination occurs when the model generates information not present in the source.",
+      "expected_answer": "Hallucination is when the model generates information not in the source.",
+      "response": "The document states that hallucination occurs when the model generates information not present in the source. This is explicitly mentioned as one of the rules for answering questions",
+      "latency": 4.886,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "context"
+      ],
+      "relevance_score": 0.8799999952316284,
+      "faithfulness_score": 0.875,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 12,
+      "question": "What is the main benefit of retrieval in RAG?",
+      "context": null,
+      "expected_answer": "It provides relevant context for more accurate answers.",
+      "response": "The main benefit of retrieval in Retrieval-Augmented Generation (RAG) models is that it allows the model to access a large external knowledge base, enabling it to generate more accurate and informative responses. This is because the model can retrieve relevant information from the external source and incorporate it into its generated text",
+      "latency": 7.36,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "reasoning"
+      ],
+      "relevance_score": 0.3499999940395355,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 13,
+      "question": "What was decided?",
+      "context": "The team agreed to delay the release by 2 weeks.",
+      "expected_answer": "The release was delayed by 2 weeks.",
+      "response": "The team agreed to delay the release by 2 weeks. This means that the original planned release date will now be postponed for two weeks",
+      "latency": 4.701,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "ambiguous"
+      ],
+      "relevance_score": 0.7960000038146973,
+      "faithfulness_score": 0.875,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 14,
+      "question": "Why is chunking important in RAG?",
+      "context": null,
+      "expected_answer": "It splits documents into manageable pieces for effective retrieval.",
+      "response": "Chunking is important in Retrieval-Augmented Generation (RAG) because it allows the model to efficiently retrieve relevant information from a large knowledge base, improving the accuracy and relevance of generated text. By breaking down the input into smaller chunks, the model can focus on specific aspects of the query and retrieve more precise information",
+      "latency": 7.533,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.550000011920929,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 15,
+      "question": "What happens if chunks are too large?",
+      "context": null,
+      "expected_answer": "Relevant information may be diluted, reducing retrieval accuracy.",
+      "response": "If chunks are too large, it can lead to inefficient processing and potentially cause errors in the evaluation process. This is because larger chunks may exceed the capacity of the system or require more time to evaluate than smaller ones",
+      "latency": 5.832,
+      "model": "llama3.1:8b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.2709999978542328,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "system_error",
+      "is_verbose": false
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of reranking in RAG?",
+      "context": null,
+      "expected_answer": "To reorder retrieved results based on relevance.",
+      "response": "The purpose of reranking in RAG (ReAdviser Generator) is to re-order the generated candidates based on their relevance and coherence, improving the overall quality of the output. This step helps to refine the final answer by selecting the most suitable response from the generated options",
+      "latency": 6.884,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "concept"
+      ],
+      "relevance_score": 0.5009999871253967,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 17,
+      "question": "Who won the FIFA World Cup in 2022?",
+      "context": "This document discusses machine learning systems.",
+      "expected_answer": "The context does not contain this information.",
+      "response": "The context does not contain this information.",
+      "latency": 3.08,
+      "model": "llama3.1:8b",
+      "tags": [
+        "hard",
+        "negative"
+      ],
+      "relevance_score": 1.0,
+      "faithfulness_score": 0.10899999737739563,
+      "hallucinated": false,
+      "error_type": "correct",
+      "is_verbose": false
+    },
+    {
+      "id": 18,
+      "question": "What is a common failure mode of RAG systems?",
+      "context": null,
+      "expected_answer": "Retrieving irrelevant or incomplete context.",
+      "response": "A common failure mode of Risk Assessment and Governance (RAG) systems is that they can become overly simplistic or binary, leading to inaccurate risk assessments. This can result in either too many risks being flagged as high-priority or not enough attention being given to actual critical issues",
+      "latency": 6.821,
+      "model": "llama3.1:8b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.12200000137090683,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 19,
+      "question": "Does increasing top-k always improve results?",
+      "context": null,
+      "expected_answer": "No, it can introduce noise and reduce answer quality.",
+      "response": "Increasing top-k can sometimes improve results by allowing the model to focus on the most relevant predictions, but it also risks introducing noise or bias if the k value is too high. The effectiveness of increasing top-k depends on various factors such as the specific task, dataset, and model architecture",
+      "latency": 7.14,
+      "model": "llama3.1:8b",
+      "tags": [
+        "hard",
+        "adversarial"
+      ],
+      "relevance_score": 0.26600000262260437,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 20,
+      "question": "What is grounding in RAG?",
+      "context": null,
+      "expected_answer": "Ensuring responses are based on retrieved context.",
+      "response": "Grounding in Retrieval-Augmented Generator (RAG) refers to the process of using a large external knowledge base or database to provide relevant context to the generator, allowing it to produce more accurate and informative responses. This involves retrieving relevant information from the external knowledge source and incorporating it into the generator's output",
+      "latency": 7.388,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "concept"
+      ],
+      "relevance_score": 0.33500000834465027,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 21,
+      "question": "Why are LLMs prone to hallucination?",
+      "context": null,
+      "expected_answer": "Because they generate text based on patterns rather than verified facts.",
+      "response": "LLMs (Large Language Models) are prone to hallucination due to their reliance on statistical patterns in the training data, which can lead to overfitting and generation of fictional or made-up information. This is because LLMs often lack explicit fact-checking mechanisms and may not have been trained on sufficient high-quality, accurate data",
+      "latency": 7.79,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.4740000069141388,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 22,
+      "question": "What is the role of context in RAG?",
+      "context": null,
+      "expected_answer": "It provides relevant information for answer generation.",
+      "response": "The role of context in Retrieval-Augmented Generation (RAG) models is to provide relevant information that helps the model generate more accurate and informative responses. Context serves as a query or prompt that guides the model's search for relevant documents or passages from which to retrieve and incorporate into its response",
+      "latency": 7.158,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.5009999871253967,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 23,
+      "question": "What does the document state about retrieval?",
+      "context": "Retrieval fetches relevant data from a knowledge base to assist in answering queries.",
+      "expected_answer": "Retrieval fetches relevant data for answering queries.",
+      "response": "The document states that retrieval fetches relevant data from a knowledge base. This is used to assist in answering queries",
+      "latency": 4.239,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "context"
+      ],
+      "relevance_score": 0.734000027179718,
+      "faithfulness_score": 0.8289999961853027,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 24,
+      "question": "Is RAG more expensive than using full context?",
+      "context": null,
+      "expected_answer": "No, it is usually cheaper because it reduces token usage.",
+      "response": "The cost of using a Retrieval-Augmented Generator (RAG) model versus a full-context model depends on the specific implementation and infrastructure, but generally, RAG models can be more computationally efficient. However, this may not necessarily translate to lower costs in terms of hardware or maintenance",
+      "latency": 7.073,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "adversarial"
+      ],
+      "relevance_score": 0.3179999887943268,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 25,
+      "question": "What is semantic search?",
+      "context": null,
+      "expected_answer": "Search based on meaning rather than exact keywords.",
+      "response": "Semantic search is a type of search engine technology that focuses on understanding the meaning and context of search queries to provide more accurate and relevant results. It uses natural language processing (NLP) and artificial intelligence (AI) to analyze the intent behind a user's search query, rather than just matching keywords",
+      "latency": 7.187,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.6200000047683716,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 26,
+      "question": "What happens if embeddings are poor quality?",
+      "context": null,
+      "expected_answer": "Retrieval accuracy decreases, leading to poor answers.",
+      "response": "Poor-quality embeddings can lead to inaccurate or unreliable results in downstream tasks such as classification, clustering, or recommendation systems. This is because the embedding space may not effectively capture the underlying relationships between data points, resulting in suboptimal performance",
+      "latency": 6.163,
+      "model": "llama3.1:8b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.3799999952316284,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    },
+    {
+      "id": 27,
+      "question": "What is the difference between RAG and fine-tuning?",
+      "context": null,
+      "expected_answer": "RAG retrieves external data, while fine-tuning updates model weights.",
+      "response": "RAG (ReAdGe) and fine-tuning are both methods for adapting pre-trained language models to a specific task, but they differ in their approach. Fine-tuning involves training the entire model on the target task, whereas RAG uses a retriever-reader architecture that retrieves relevant passages from a large corpus and then generates an output based on those passages",
+      "latency": 8.209,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.5910000205039978,
+      "faithfulness_score": null,
+      "hallucinated": false,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 28,
+      "question": "What is latency in LLM systems?",
+      "context": null,
+      "expected_answer": "The time taken to generate a response.",
+      "response": "Latency in Large Language Model (LLM) systems refers to the delay between when a user inputs a query or prompt and when the model responds with an output. This can include processing time, network transmission delays, and other factors that affect the speed of the response",
+      "latency": 6.718,
+      "model": "llama3.1:8b",
+      "tags": [
+        "easy",
+        "concept"
+      ],
+      "relevance_score": 0.4350000023841858,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 29,
+      "question": "Why might an LLM ignore provided context?",
+      "context": null,
+      "expected_answer": "Because of prompt issues or strong prior patterns in the model.",
+      "response": "An LLM (Large Language Model) might ignore provided context if it is incomplete or insufficient to generate a coherent response. This can also occur due to limitations in the model's training data or architecture, which may not allow for effective contextual understanding",
+      "latency": 6.301,
+      "model": "llama3.1:8b",
+      "tags": [
+        "hard",
+        "reasoning"
+      ],
+      "relevance_score": 0.34599998593330383,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "partial_correct",
+      "is_verbose": false
+    },
+    {
+      "id": 30,
+      "question": "What is the main limitation of RAG?",
+      "context": null,
+      "expected_answer": "It depends heavily on retrieval quality.",
+      "response": "The main limitation of RAG (Regressive Attention Generator) is its reliance on pre-existing knowledge bases or databases, which can lead to biased or outdated information. This limitation arises from the fact that RAG generates text based on patterns learned from its training data, rather than incorporating new or diverse perspectives",
+      "latency": 7.232,
+      "model": "llama3.1:8b",
+      "tags": [
+        "medium",
+        "reasoning"
+      ],
+      "relevance_score": 0.3310000002384186,
+      "faithfulness_score": null,
+      "hallucinated": true,
+      "error_type": "hallucination",
+      "is_verbose": false
+    }
+  ]
+}
