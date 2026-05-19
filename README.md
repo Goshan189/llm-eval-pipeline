@@ -21,3 +21,5 @@ Run and compare multiple local LLMs (via Ollama):
 
 ```bash
 python run_pipeline.py --models llama3.1:8b gemma:7b tinyllama
+```
+(Can test with your own model of choice)
